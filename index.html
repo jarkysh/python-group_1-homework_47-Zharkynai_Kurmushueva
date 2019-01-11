@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Задание 1</h1>
+        <p></p>
+
+<div id="string-1">Ядра в вёдра, выдру в тундру!</div>
+<div id="string-2">Выдрав с выдры в тундре гетры</div>
+<div id="string-3">В недрах тундры, выдры в гетрах </div>
+<div id="string-4">Вытру гетрой выдре морду </div>
+<div id="string-5">Тырят в вёдра ядра кедров!</div>
+<div id="string-6">Вытру выдрой ядра кедров</div>
+
+        <script >
+
+ var theElement = document.getElementById("string-1");
+            theElement.innerHTML = "В недрах тундры, выдры в гетрах ";
+
+            var theElement = document.getElementById("string-2");
+            theElement.innerHTML = "Тырят в вёдра ядра кедров! ";
+
+            var theElement = document.getElementById("string-3");
+            theElement.innerHTML = "Выдрав с выдры в тундре гетры ";
+
+            var theElement = document.getElementById("string-4");
+            theElement.innerHTML = "Вытру выдрой ядра кедров";
+
+            var theElement = document.getElementById("string-5");
+            theElement.innerHTML = "Вытру гетрой выдре морду";
+
+            var theElement = document.getElementById("string-6");
+            theElement.innerHTML = "Ядра в вёдра, выдру в тундру ";
+        </script>
+        <h1>Задание 2</h1>
+
+            <div class="element">Element 1</div>
+            <div class="element">Element 2</div>
+            <div class="element">Element 3</div>
+            <div class="element">Element 4</div>
+            <div class="element">Element 5</div>
+            <div class="element">Element 6</div>
+
+        <script >
+        var elements = document.getElementsByClassName("element")
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.background='red';
+          }
+        for (var i = 3; i < elements.length; i++) {
+            elements[i].style.background='blue';
+         }
+        </script>
+
+
+        <h1><a href="zadanie3.html">Задание 3</a></h1>
+
+        <h1><a href="zadanie4.html">Задание 4</a></h1>
+        <h1><a href="zadanie5.html">Задание 5</a></h1>
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</body>
+</html>

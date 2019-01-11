@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+
+<body>
+  <div id="container"></div>
+  <script>
+    let div = document.getElementById('container');
+    function f() {
+      let n_div = document.createElement('div');
+      n_div.classList.add('element');
+      n_div.innerText = Math.floor(Math.random() * 20);
+      div.appendChild(n_div);
+    };
+    window.setInterval(f,5000)
+  </script>
+</body>
+
+</html>
+
+
